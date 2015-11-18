@@ -1,0 +1,18 @@
+{
+    "name":"server-toggle",
+    "version":"1.0.0",
+    "author":"Eric Peterson",
+    "createPackageDirectory":true,
+    "packageDirectory":"server",
+    "homepage":"https://github.com/elpete/cbox-server-toggle",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/elpete/cbox-server-toggle"
+    },
+    "bugs":"https://github.com/elpete/cbox-server-toggle/issues",
+    "slug":"server-toggle",
+    "shortDescription":"Toggles the status of a CommandBox server",
+    "type":"commandbox-commands",
+    "keywords":"server,toggle,commandbox",
+    "private":false
+}
