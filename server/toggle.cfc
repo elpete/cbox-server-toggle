@@ -28,7 +28,8 @@ component extends="commandbox.system.BaseCommand" aliases="toggle" excludeFromHe
 
         if (variables.server.keyExists("status") && (
                 variables.server.status == "running" ||
-                variables.server.status == "started"
+                variables.server.status == "started" ||
+                variables.server.status == "starting"
             )
         ) {
             runCommand("server stop")
